@@ -1,0 +1,33 @@
+{
+  "name": "verivox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "namen",
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@badisi/wdio-harness": "^2.0.2",
+    "@cucumber/cucumber": "^9.1.0",
+    "@wdio/cli": "^8.8.7",
+    "@wdio/cucumber-framework": "^8.8.7",
+    "@wdio/dot-reporter": "^8.8.0",
+    "@wdio/junit-reporter": "^8.8.7",
+    "@wdio/local-runner": "^8.8.7",
+    "@wdio/mocha-framework": "^8.8.7",
+    "@wdio/spec-reporter": "^8.8.7",
+    "chromedriver": "^112.0.0",
+    "msedgedriver": "^91.0.0",
+    "wdio-chromedriver-service": "^8.1.1",
+    "wdio-edgedriver-service": "^2.1.2",
+    "wdio-safaridriver-service": "^2.1.0",
+    "wdio-wait-for": "^3.0.3"
+  },
+  "dependencies": {
+    "chai": "^4.3.7"
+  }
+}
